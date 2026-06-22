@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.matrix.quantumcore.defense.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "quantumcore.refmap.json",
+  "mixins": [
+    "EntityDestructionMixin",
+    "EntityDiscardMixin",
+    "LobotomyMixin",
+    "NettyFirewallMixin",
+    "PhoenixShellMixin",
+    "PlayerLifecycleMixin",
+    "PlayerListMixin",
+    "PlayerSpatialMixin",
+    "PlayerStateMixin",
+    "ServerLevelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

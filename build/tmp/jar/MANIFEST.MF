@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: quantumcore
+Specification-Vendor: matrix
+Specification-Version: 1
+Implementation-Title: quantumcore
+Implementation-Version: 1.0.0
+Implementation-Vendor: matrix
+Implementation-Timestamp: 2026-06-22T21:44:10+0800
+MixinConfigs: quantumcore.mixins.json
+

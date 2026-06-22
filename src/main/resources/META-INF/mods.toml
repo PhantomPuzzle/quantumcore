@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="quantumcore"
+version="1.0.0"
+displayName="Quantum Core"
+logoFile="logo.png"
+authors="Matrix"
+description='''
+一个提供全模组兼容的复合加权随机算法数据库，以及针对底层数据段、实体判定的绝对锚定重新定位防御机制的硬核前置库。
+'''
+
+# 修复：使用标准的 mixins 块以确保 Forge 准确识别
+[[mixins]]
+config="quantumcore.mixins.json"
+
+[[dependencies.quantumcore]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.quantumcore]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"

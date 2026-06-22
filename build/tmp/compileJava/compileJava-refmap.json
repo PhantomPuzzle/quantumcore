@@ -1,0 +1,74 @@
+{
+  "mappings": {
+    "com/matrix/quantumcore/defense/mixin/EntityDiscardMixin": {
+      "discard": "Lnet/minecraft/world/entity/Entity;m_146870_()V",
+      "remove": "Lnet/minecraft/world/entity/Entity;m_142687_(Lnet/minecraft/world/entity/Entity$RemovalReason;)V"
+    },
+    "com/matrix/quantumcore/defense/mixin/LobotomyMixin": {
+      "tick": "Lnet/minecraft/world/entity/Entity;m_8119_()V"
+    },
+    "com/matrix/quantumcore/defense/mixin/EntityDestructionMixin": {
+      "remove": "Lnet/minecraft/world/entity/Entity;m_142687_(Lnet/minecraft/world/entity/Entity$RemovalReason;)V"
+    },
+    "com/matrix/quantumcore/defense/mixin/PlayerStateMixin": {
+      "isAlive": "Lnet/minecraft/world/entity/Entity;m_6084_()Z",
+      "isRemoved": "Lnet/minecraft/world/entity/Entity;m_213877_()Z"
+    },
+    "com/matrix/quantumcore/defense/mixin/ServerLevelMixin": {
+      "players": "Lnet/minecraft/server/level/ServerLevel;m_6907_()Ljava/util/List;"
+    },
+    "com/matrix/quantumcore/defense/mixin/PhoenixShellMixin": {
+      "setRemoved": "Lnet/minecraft/world/entity/Entity;m_142467_(Lnet/minecraft/world/entity/Entity$RemovalReason;)V"
+    },
+    "com/matrix/quantumcore/defense/mixin/PlayerLifecycleMixin": {
+      "die": "Lnet/minecraft/world/entity/LivingEntity;m_6667_(Lnet/minecraft/world/damagesource/DamageSource;)V",
+      "hurt": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z"
+    },
+    "com/matrix/quantumcore/defense/mixin/NettyFirewallMixin": {
+      "disconnect": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_9942_(Lnet/minecraft/network/chat/Component;)V"
+    },
+    "com/matrix/quantumcore/defense/mixin/PlayerListMixin": {
+      "getPlayer": "Lnet/minecraft/server/players/PlayerList;m_11259_(Ljava/util/UUID;)Lnet/minecraft/server/level/ServerPlayer;"
+    },
+    "com/matrix/quantumcore/defense/mixin/PlayerSpatialMixin": {
+      "setPos(DDD)V": "Lnet/minecraft/world/entity/Entity;m_6034_(DDD)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/matrix/quantumcore/defense/mixin/EntityDiscardMixin": {
+        "discard": "Lnet/minecraft/world/entity/Entity;m_146870_()V",
+        "remove": "Lnet/minecraft/world/entity/Entity;m_142687_(Lnet/minecraft/world/entity/Entity$RemovalReason;)V"
+      },
+      "com/matrix/quantumcore/defense/mixin/LobotomyMixin": {
+        "tick": "Lnet/minecraft/world/entity/Entity;m_8119_()V"
+      },
+      "com/matrix/quantumcore/defense/mixin/EntityDestructionMixin": {
+        "remove": "Lnet/minecraft/world/entity/Entity;m_142687_(Lnet/minecraft/world/entity/Entity$RemovalReason;)V"
+      },
+      "com/matrix/quantumcore/defense/mixin/PlayerStateMixin": {
+        "isAlive": "Lnet/minecraft/world/entity/Entity;m_6084_()Z",
+        "isRemoved": "Lnet/minecraft/world/entity/Entity;m_213877_()Z"
+      },
+      "com/matrix/quantumcore/defense/mixin/ServerLevelMixin": {
+        "players": "Lnet/minecraft/server/level/ServerLevel;m_6907_()Ljava/util/List;"
+      },
+      "com/matrix/quantumcore/defense/mixin/PhoenixShellMixin": {
+        "setRemoved": "Lnet/minecraft/world/entity/Entity;m_142467_(Lnet/minecraft/world/entity/Entity$RemovalReason;)V"
+      },
+      "com/matrix/quantumcore/defense/mixin/PlayerLifecycleMixin": {
+        "die": "Lnet/minecraft/world/entity/LivingEntity;m_6667_(Lnet/minecraft/world/damagesource/DamageSource;)V",
+        "hurt": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z"
+      },
+      "com/matrix/quantumcore/defense/mixin/NettyFirewallMixin": {
+        "disconnect": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_9942_(Lnet/minecraft/network/chat/Component;)V"
+      },
+      "com/matrix/quantumcore/defense/mixin/PlayerListMixin": {
+        "getPlayer": "Lnet/minecraft/server/players/PlayerList;m_11259_(Ljava/util/UUID;)Lnet/minecraft/server/level/ServerPlayer;"
+      },
+      "com/matrix/quantumcore/defense/mixin/PlayerSpatialMixin": {
+        "setPos(DDD)V": "Lnet/minecraft/world/entity/Entity;m_6034_(DDD)V"
+      }
+    }
+  }
+}
